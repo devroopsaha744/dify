@@ -12,8 +12,8 @@ const LogoSite: FC<LogoSiteProps> = ({
 }) => {
   return (
     <img
-      src={`${basePath}/logo/ai-lifebot-logo.png`}
-      className={classNames('block h-[32px] w-auto', className)}
+      src={`${basePath}ai_lifebot.jpeg`}
+      className={classNames('block h-8 w-auto object-contain', className)}
       alt='AI LifeBot'
     />
   )
