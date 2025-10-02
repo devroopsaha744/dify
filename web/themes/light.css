@@ -20,14 +20,14 @@ html[data-theme="light"] {
 
   --color-components-tooltip-bg: rgb(255 255 255 / 0.95);
 
-  --color-components-button-primary-text: #ffffff;
-  --color-components-button-primary-bg: #155aef;
+  --color-components-button-primary-text: #000000;
+  --color-components-button-primary-bg: #FFD700;
   --color-components-button-primary-border: rgb(16 24 40 / 0.04);
-  --color-components-button-primary-bg-hover: #004aeb;
+  --color-components-button-primary-bg-hover: #FFC700;
   --color-components-button-primary-border-hover: rgb(16 24 40 / 0.08);
-  --color-components-button-primary-bg-disabled: rgb(21 90 239 / 0.14);
+  --color-components-button-primary-bg-disabled: rgb(255 215 0 / 0.3);
   --color-components-button-primary-border-disabled: rgb(255 255 255 / 0);
-  --color-components-button-primary-text-disabled: rgb(255 255 255 / 0.6);
+  --color-components-button-primary-text-disabled: rgb(0 0 0 / 0.4);
 
   --color-components-button-secondary-text: #354052;
   --color-components-button-secondary-text-disabled: rgb(16 24 40 / 0.25);
@@ -91,8 +91,8 @@ html[data-theme="light"] {
 
   --color-components-checkbox-icon: #ffffff;
   --color-components-checkbox-icon-disabled: rgb(255 255 255 / 0.5);
-  --color-components-checkbox-bg: #155aef;
-  --color-components-checkbox-bg-hover: #004aeb;
+  --color-components-checkbox-bg: #FFD700;
+  --color-components-checkbox-bg-hover: #FFC700;
   --color-components-checkbox-bg-disabled: #f2f4f7;
   --color-components-checkbox-border: #d0d5dc;
   --color-components-checkbox-border-hover: #98a2b2;
@@ -101,8 +101,8 @@ html[data-theme="light"] {
   --color-components-checkbox-bg-unchecked-hover: #ffffff;
   --color-components-checkbox-bg-disabled-checked: #b2caff;
 
-  --color-components-radio-border-checked: #155aef;
-  --color-components-radio-border-checked-hover: #004aeb;
+  --color-components-radio-border-checked: #FFD700;
+  --color-components-radio-border-checked-hover: #FFC700;
   --color-components-radio-border-checked-disabled: #b2caff;
   --color-components-radio-bg-disabled: rgb(255 255 255 / 0);
   --color-components-radio-border: #d0d5dc;
@@ -113,8 +113,8 @@ html[data-theme="light"] {
 
   --color-components-toggle-knob: #ffffff;
   --color-components-toggle-knob-disabled: rgb(255 255 255 / 0.95);
-  --color-components-toggle-bg: #155aef;
-  --color-components-toggle-bg-hover: #004aeb;
+  --color-components-toggle-bg: #FFD700;
+  --color-components-toggle-bg-hover: #FFC700;
   --color-components-toggle-bg-disabled: #d1e0ff;
   --color-components-toggle-bg-unchecked: #e9ebf0;
   --color-components-toggle-bg-unchecked-hover: #d0d5dc;
@@ -131,7 +131,7 @@ html[data-theme="light"] {
   --color-components-menu-item-text-active: #18222f;
   --color-components-menu-item-text-hover: #354052;
   --color-components-menu-item-text-active-accent: #18222f;
-  --color-components-menu-item-bg-active: rgb(21 90 239 / 0.08);
+  --color-components-menu-item-bg-active: rgb(255 215 0 / 0.15);
   --color-components-menu-item-bg-hover: rgb(200 206 218 / 0.2);
 
   --color-components-panel-bg: #ffffff;
@@ -151,7 +151,7 @@ html[data-theme="light"] {
   --color-components-panel-bg-transparent: rgb(255 255 255 / 0);
 
   --color-components-main-nav-nav-button-text: #495464;
-  --color-components-main-nav-nav-button-text-active: #155aef;
+  --color-components-main-nav-nav-button-text-active: #FFD700;
   --color-components-main-nav-nav-button-bg: rgb(255 255 255 / 0);
   --color-components-main-nav-nav-button-bg-active: #fcfcfd;
   --color-components-main-nav-nav-button-border: rgb(255 255 255 / 0.95);
@@ -180,7 +180,7 @@ html[data-theme="light"] {
   --color-components-option-card-option-bg-hover: #ffffff;
   --color-components-option-card-option-border-hover: #d0d5dc;
 
-  --color-components-tab-active: #155aef;
+  --color-components-tab-active: #FFD700;
 
   --color-components-badge-white-to-dark: #ffffff;
   --color-components-badge-status-light-success-bg: #47cd89;

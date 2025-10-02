@@ -1,5 +1,5 @@
 const translation = {
-  title: 'Explore',
+  title: 'Marketplace',
   sidebar: {
     discovery: 'Discovery',
     chat: 'Chat',
@@ -16,7 +16,7 @@ const translation = {
     },
   },
   apps: {
-    title: 'Explore Apps',
+    title: 'Marketplace Apps',
     description: 'Use these template apps instantly or customize your own apps based on the templates.',
     allCategories: 'Recommended',
   },

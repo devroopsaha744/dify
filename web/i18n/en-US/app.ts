@@ -120,7 +120,7 @@ const translation = {
   answerIcon: {
     title: 'Use web app icon to replace 🤖',
     description: 'Whether to use the web app icon to replace 🤖 in the shared application',
-    descriptionInExplore: 'Whether to use the web app icon to replace 🤖 in Explore',
+    descriptionInExplore: 'Whether to use the web app icon to replace 🤖 in Marketplace',
   },
   switch: 'Switch to Workflow Orchestrate',
   switchTipStart: 'A new app copy will be created for you, and the new copy will switch to Workflow Orchestrate. The new copy will ',
@@ -129,7 +129,7 @@ const translation = {
   switchLabel: 'The app copy to be created',
   removeOriginal: 'Delete the original app',
   switchStart: 'Start switch',
-  openInExplore: 'Open in Explore',
+  openInExplore: 'Open in Marketplace',
   typeSelector: {
     all: 'All Types ',
     chatbot: 'Chatbot',

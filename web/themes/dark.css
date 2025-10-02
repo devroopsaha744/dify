@@ -20,14 +20,14 @@ html[data-theme="dark"] {
 
   --color-components-tooltip-bg: rgb(24 24 27 / 0.95);
 
-  --color-components-button-primary-text: rgb(255 255 255 / 0.95);
-  --color-components-button-primary-bg: #155aef;
+  --color-components-button-primary-text: #000000;
+  --color-components-button-primary-bg: #FFD700;
   --color-components-button-primary-border: rgb(255 255 255 / 0.12);
-  --color-components-button-primary-bg-hover: #296dff;
+  --color-components-button-primary-bg-hover: #FFC700;
   --color-components-button-primary-border-hover: rgb(255 255 255 / 0.2);
-  --color-components-button-primary-bg-disabled: rgb(255 255 255 / 0.03);
+  --color-components-button-primary-bg-disabled: rgb(255 215 0 / 0.2);
   --color-components-button-primary-border-disabled: rgb(255 255 255 / 0.08);
-  --color-components-button-primary-text-disabled: rgb(255 255 255 / 0.2);
+  --color-components-button-primary-text-disabled: rgb(0 0 0 / 0.3);
 
   --color-components-button-secondary-text: rgb(255 255 255 / 0.8);
   --color-components-button-secondary-text-disabled: rgb(255 255 255 / 0.2);
@@ -89,21 +89,21 @@ html[data-theme="dark"] {
   --color-components-button-indigo-bg-hover: #6172f3;
   --color-components-button-indigo-bg-disabled: rgb(255 255 255 / 0.03);
 
-  --color-components-checkbox-icon: rgb(255 255 255 / 0.95);
-  --color-components-checkbox-icon-disabled: rgb(255 255 255 / 0.2);
-  --color-components-checkbox-bg: #296dff;
-  --color-components-checkbox-bg-hover: #5289ff;
+  --color-components-checkbox-icon: #000000;
+  --color-components-checkbox-icon-disabled: rgb(0 0 0 / 0.3);
+  --color-components-checkbox-bg: #FFD700;
+  --color-components-checkbox-bg-hover: #FFC700;
   --color-components-checkbox-bg-disabled: rgb(255 255 255 / 0.03);
   --color-components-checkbox-border: rgb(255 255 255 / 0.4);
   --color-components-checkbox-border-hover: rgb(255 255 255 / 0.6);
   --color-components-checkbox-border-disabled: rgb(255 255 255 / 0.01);
   --color-components-checkbox-bg-unchecked: rgb(255 255 255 / 0.03);
   --color-components-checkbox-bg-unchecked-hover: rgb(255 255 255 / 0.05);
-  --color-components-checkbox-bg-disabled-checked: rgb(21 90 239 / 0.2);
+  --color-components-checkbox-bg-disabled-checked: rgb(255 215 0 / 0.3);
 
-  --color-components-radio-border-checked: #296dff;
-  --color-components-radio-border-checked-hover: #5289ff;
-  --color-components-radio-border-checked-disabled: rgb(21 90 239 / 0.2);
+  --color-components-radio-border-checked: #FFD700;
+  --color-components-radio-border-checked-hover: #FFC700;
+  --color-components-radio-border-checked-disabled: rgb(255 215 0 / 0.3);
   --color-components-radio-bg-disabled: rgb(255 255 255 / 0.03);
   --color-components-radio-border: rgb(255 255 255 / 0.4);
   --color-components-radio-border-hover: rgb(255 255 255 / 0.6);
@@ -111,10 +111,10 @@ html[data-theme="dark"] {
   --color-components-radio-bg: rgb(255 255 255 / 0);
   --color-components-radio-bg-hover: rgb(255 255 255 / 0.05);
 
-  --color-components-toggle-knob: #f4f4f5;
-  --color-components-toggle-knob-disabled: rgb(255 255 255 / 0.2);
-  --color-components-toggle-bg: #296dff;
-  --color-components-toggle-bg-hover: #5289ff;
+  --color-components-toggle-knob: #000000;
+  --color-components-toggle-knob-disabled: rgb(0 0 0 / 0.3);
+  --color-components-toggle-bg: #FFD700;
+  --color-components-toggle-bg-hover: #FFC700;
   --color-components-toggle-bg-disabled: rgb(255 255 255 / 0.08);
   --color-components-toggle-bg-unchecked: rgb(255 255 255 / 0.2);
   --color-components-toggle-bg-unchecked-hover: rgb(255 255 255 / 0.3);
@@ -128,10 +128,10 @@ html[data-theme="dark"] {
   --color-components-card-bg-alt-transparent: rgb(39 39 43 / 0);
 
   --color-components-menu-item-text: rgb(200 206 218 / 0.6);
-  --color-components-menu-item-text-active: rgb(255 255 255 / 0.95);
+  --color-components-menu-item-text-active: #FFD700;
   --color-components-menu-item-text-hover: rgb(200 206 218 / 0.8);
-  --color-components-menu-item-text-active-accent: rgb(255 255 255 / 0.95);
-  --color-components-menu-item-bg-active: rgb(200 206 218 / 0.14);
+  --color-components-menu-item-text-active-accent: #FFD700;
+  --color-components-menu-item-bg-active: rgb(255 215 0 / 0.15);
   --color-components-menu-item-bg-hover: rgb(200 206 218 / 0.08);
 
   --color-components-panel-bg: #222225;
@@ -151,9 +151,9 @@ html[data-theme="dark"] {
   --color-components-panel-bg-transparent: rgb(34 34 37 / 0);
 
   --color-components-main-nav-nav-button-text: rgb(200 206 218 / 0.6);
-  --color-components-main-nav-nav-button-text-active: #f4f4f5;
+  --color-components-main-nav-nav-button-text-active: #FFD700;
   --color-components-main-nav-nav-button-bg: rgb(255 255 255 / 0);
-  --color-components-main-nav-nav-button-bg-active: rgb(200 206 218 / 0.14);
+  --color-components-main-nav-nav-button-bg-active: rgb(255 215 0 / 0.15);
   --color-components-main-nav-nav-button-border: rgb(255 255 255 / 0.08);
   --color-components-main-nav-nav-button-bg-hover: rgb(200 206 218 / 0.04);
 
@@ -162,7 +162,7 @@ html[data-theme="dark"] {
   --color-components-slider-knob: #f4f4f5;
   --color-components-slider-knob-hover: #fefefe;
   --color-components-slider-knob-disabled: rgb(255 255 255 / 0.2);
-  --color-components-slider-range: #296dff;
+  --color-components-slider-range: #FFD700;
   --color-components-slider-track: rgb(255 255 255 / 0.2);
   --color-components-slider-knob-border-hover: rgb(16 24 40 / 0.3);
   --color-components-slider-knob-border: rgb(16 24 40 / 0.2);
@@ -170,17 +170,17 @@ html[data-theme="dark"] {
   --color-components-segmented-control-item-active-bg: rgb(255 255 255 / 0.08);
   --color-components-segmented-control-item-active-border: rgb(200 206 218 / 0.08);
   --color-components-segmented-control-bg-normal: rgb(24 24 27 / 0.7);
-  --color-components-segmented-control-item-active-accent-bg: rgb(21 90 239 / 0.2);
-  --color-components-segmented-control-item-active-accent-border: rgb(21 90 239 / 0.3);
+  --color-components-segmented-control-item-active-accent-bg: rgb(255 215 0 / 0.2);
+  --color-components-segmented-control-item-active-accent-border: rgb(255 215 0 / 0.3);
 
   --color-components-option-card-option-bg: rgb(200 206 218 / 0.04);
   --color-components-option-card-option-selected-bg: rgb(255 255 255 / 0.05);
-  --color-components-option-card-option-selected-border: #5289ff;
+  --color-components-option-card-option-selected-border: #FFD700;
   --color-components-option-card-option-border: rgb(200 206 218 / 0.2);
   --color-components-option-card-option-bg-hover: rgb(200 206 218 / 0.14);
   --color-components-option-card-option-border-hover: rgb(200 206 218 / 0.3);
 
-  --color-components-tab-active: #296dff;
+  --color-components-tab-active: #FFD700;
 
   --color-components-badge-white-to-dark: rgb(24 24 27 / 0.8);
   --color-components-badge-status-light-success-bg: #17b26a;
@@ -338,7 +338,7 @@ html[data-theme="dark"] {
   --color-components-icon-bg-green-solid: #4ca30d;
   --color-components-icon-bg-teal-solid: #0e9384;
   --color-components-icon-bg-blue-light-solid: #0ba5ec;
-  --color-components-icon-bg-blue-solid: #155aef;
+  --color-components-icon-bg-blue-solid: #FFD700;
   --color-components-icon-bg-indigo-solid: #444ce7;
   --color-components-icon-bg-violet-solid: #7839ee;
   --color-components-icon-bg-midnight-solid: #5d698d;
@@ -632,9 +632,9 @@ html[data-theme="dark"] {
   --color-util-colors-blue-brand-blue-brand-100: #00329e;
   --color-util-colors-blue-brand-blue-brand-200: #003dc1;
   --color-util-colors-blue-brand-blue-brand-300: #004aeb;
-  --color-util-colors-blue-brand-blue-brand-400: #155aef;
-  --color-util-colors-blue-brand-blue-brand-500: #296dff;
-  --color-util-colors-blue-brand-blue-brand-600: #5289ff;
+  --color-util-colors-blue-brand-blue-brand-400: #FFD700;
+  --color-util-colors-blue-brand-blue-brand-500: #FFD700;
+  --color-util-colors-blue-brand-blue-brand-600: #FFC700;
   --color-util-colors-blue-brand-blue-brand-700: #84abff;
 
   --color-util-colors-red-red-50: #55160c;

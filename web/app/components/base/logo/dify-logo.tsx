@@ -6,8 +6,8 @@ import { basePath } from '@/utils/var'
 export type LogoStyle = 'default' | 'monochromeWhite'
 
 export const logoPathMap: Record<LogoStyle, string> = {
-  default: '/logo/logo.svg',
-  monochromeWhite: '/logo/logo-monochrome-white.svg',
+  default: '/logo/ai-lifebot-logo.png',
+  monochromeWhite: '/logo/ai-lifebot-logo.png',
 }
 
 export type LogoSize = 'large' | 'medium' | 'small'
@@ -36,7 +36,7 @@ const DifyLogo: FC<DifyLogoProps> = ({
     <img
       src={`${basePath}${logoPathMap[themedStyle]}`}
       className={classNames('block object-contain', logoSizeMap[size], className)}
-      alt='Dify logo'
+      alt='AI LifeBot logo'
     />
   )
 }
